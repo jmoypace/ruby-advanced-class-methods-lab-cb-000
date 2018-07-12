@@ -15,16 +15,16 @@ def self.create
   song
 end
 def self.new_by_name(song_name)
-song=self.new
-song.name=song_name
-song
+  song=self.new
+  song.name=song_name
+  song
 end
 
 def self.create_by_name(song_name)
-song = self.create
-song.name = song_name
-song
-  end
+  song = self.create
+  song.name = song_name
+  song
+end
 
 
 end
