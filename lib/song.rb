@@ -14,4 +14,7 @@ def self.create
   song.save
   song
 end
+def new_by_name
+
+end
 end
